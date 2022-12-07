@@ -1,0 +1,20 @@
+.container {
+    background-color: #386641;
+}
+.menubar {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 50px;
+}
+
+.menu {
+    color: antiquewhite;
+}
+
+.menu.left {
+    margin-left: auto;
+}
