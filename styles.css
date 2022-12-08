@@ -1,20 +1,43 @@
+body {
+    margin: 0;
+}
+
 .container {
     background-color: #386641;
+    display: flex;
+    justify-content: center;
+}
+
+.contents1 {
+    width: 960px;
+    color: antiquewhite;
 }
 .menubar {
+    padding-top: 8px;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
 }
 
 .logo {
     width: 50px;
 }
 
-.menu {
-    color: antiquewhite;
+.headers {
+    display: flex;
+    gap: 16px;
 }
 
-.menu.left {
-    margin-left: auto;
+.title {
+    padding-top: 32px;
 }
+
+.heromain {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.herosub {
+    font-size: 18px;
+}
+
