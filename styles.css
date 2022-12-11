@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: #386641;
+    color: #F2E8CF;
     height: 460px;
 }
 
@@ -37,6 +38,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 16px;
+    font-size: 18px;
 }
 
 ul {
@@ -52,6 +54,27 @@ ul {
 .hero_left {
     width: 45%;
     height: 250px;
+}
+
+.hero_title {
+    font-size: 48px;
+    font-weight: 800px;
+    padding-bottom: 8px;
+}
+
+.hero_sub {
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+button {
+    font-size: 18px;
+    padding: 6px 16px;
+    color: #F2E8CF;
+    background-color: #BC4749;
+    border: none;
+    border-radius: 8px;
+    flex-grow: 0;
 }
 
 .hero_img {
