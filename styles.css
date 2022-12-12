@@ -1,3 +1,5 @@
+/*need to make items be able to shrink*/
+
 * {
 margin: 0;
 }
@@ -77,6 +79,7 @@ button {
     border: none;
     border-radius: 8px;
     flex-grow: 0;
+    font-weight: bold;
 }
 
 .hero_img {
@@ -90,23 +93,43 @@ button {
     align-items: center;
     background-color: cornsilk;
     color: #BC4749;
-    height: 400px;
+    height: 440px;
 }
 
 .section2 .wrapper {
     width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.meals {
+.section2 .container {
     display: flex;
+    justify-content: space-between;
+    gap: 25px;
 }
 
 .food {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
 }
 
-.section2_img {
+.section2 .title {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 32px;
+}
+
+.section2 img {
     width: 200px;
     height: 200px;
+    border-radius: 8px;
+}
+
+.text {
+    font-size: 18px;
+    margin-top: 8px;
 }
