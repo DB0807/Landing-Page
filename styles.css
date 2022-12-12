@@ -81,3 +81,12 @@ button {
     width: 45%;
     height: 250px;
 }
+
+.section2 {
+    display: flex;
+}
+
+.section2_img {
+    width: 200px;
+    height: 200px;
+}
