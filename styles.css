@@ -133,3 +133,33 @@ button {
     font-size: 18px;
     margin-top: 8px;
 }
+
+.section3 {
+    background-color: #BC4749;
+    color: #F2E8CF;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.section3 .wrapper {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    width: 750px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 700;
+    width: 700px;
+    text-align: end;
+    margin: 16px;
+}
