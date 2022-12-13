@@ -193,3 +193,12 @@ button {
 .alert {
     margin-bottom: 8px;
 }
+
+.footer {
+    background-color: #F2E8CF;
+    color: #BC4749;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
